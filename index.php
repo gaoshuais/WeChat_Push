@@ -17,12 +17,12 @@
 // {{note_ch.DATA}}
 
 
-$appid="wxd460dc747824b5d9";   // 公众号 appid
-$secret="bd2dce7b0786ae4c75de88273f6c9a9d"; // 公众号 secret
-$touser="obmB75jc_GTn9LiV8oA8MQZY07CQ";  // 用户 touser
+$appid="wxda11c5fc2380821d";   // 公众号 appid
+$secret="ba12e6932ed3041a11d2640c3751b714"; // 公众号 secret
+$touser="obxxn6-3dgywKMwJ62ORVfc1S5dY";  // 用户 touser
 $template_id="-YwzhNSJMes8MaMkT9QQ9fX5cEmk1mrUAVse2O8KM1g"; //模板 id
 $tianhkey="";
-$city="成都";// 天气城市
+$city="沈阳";// 天气城市
 
 $postData=postweixin($appid,$secret,$touser,$template_id,$city,$tianhkey);
 $jsonData=json_decode($postData,true);
